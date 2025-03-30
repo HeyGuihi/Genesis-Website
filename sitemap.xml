@@ -10,6 +10,14 @@
 
   <!-- Página Principal -->
   <url>
+    <loc>https://genesisagency.online/</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Página Principal -->
+  <url>
     <loc>https://www.genesisagency.online/genesis/index.html</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>daily</changefreq>
