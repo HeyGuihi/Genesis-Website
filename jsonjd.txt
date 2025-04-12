@@ -1,0 +1,101 @@
+index.html = {
+    {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Genesis Agency",
+    "url": "https://genesisagency.online",
+    "logo": "https://www.genesisagency.online/assets/logo.png",
+    "sameAs": [
+        "https://www.instagram.com/genesisagency.ag",
+        "https://www.linkedin.com/company/grupogenesis"
+    ]
+    }
+
+    {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Genesis Agency",
+    "url": "https://genesisagency.online",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://genesisagency.online/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+    }
+}
+
+services.html = {
+    {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Serviços",
+    "url": "https://www.genesisagency.online/services",
+    "itemListElement": [
+        {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://www.genesisagency.online/services#product-design"
+        },
+        {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://www.genesisagency.online/services#product-discovery"
+        },
+        {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://www.genesisagency.online/services#web-design"
+        },
+        {
+        "@type": "ListItem",
+        "position": 4,
+        "url": "https://www.genesisagency.online/services#webflow-development"
+        },
+        {
+        "@type": "ListItem",
+        "position": 5,
+        "url": "https://www.genesisagency.online/services#branding"
+        },
+        {
+        "@type": "ListItem",
+        "position": 6,
+        "url": "https://www.genesisagency.online/services#marketing-design"
+        },
+        {
+        "@type": "ListItem",
+        "position": 7,
+        "url": "https://www.genesisagency.online/services#software-development"
+        }
+    ]
+    }
+}
+
+clients.html = {
+    {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Clientes",
+    "url": "https://www.genesisagency.online/clients",
+    "description": "Genesis Agency: Especialistas em pesquisa de UX, design de produtos, desenvolvimento em Webflow e muito mais. Atendendo mais de 300 empresas em 8 países ao longo de 6 anos. Criando produtos digitais envolventes e soluções inovadoras.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Genesis Agency"
+    }
+    }
+}
+
+case-studies.html = {
+    {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Projetos",
+    "url": "https://www.genesisagency.online/case-studies",
+    "description": "Descubra como a Genesis Agency ajudou marcas líderes a inovar e melhorar suas experiências digitais. Explore nossos estudos de caso em UX Design, design de produtos, prototipagem e sistemas de design.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Genesis Agency"
+    }
+    }
+}
+
+
