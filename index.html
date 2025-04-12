@@ -64,44 +64,48 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Genesis Agency",
-        "url": "https://genesisagency.online",
-        "logo": "https://www.genesisagency.online/assets/logo.png",
-        "sameAs": [
-          "https://www.instagram.com/genesisagency.ag",
-          "https://www.linkedin.com/company/grupogenesis"
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "Genesis Agency",
+            "url": "https://genesisagency.online",
+            "logo": "https://www.genesisagency.online/assets/logo.png",
+            "sameAs": [
+              "https://www.instagram.com/genesisagency.ag",
+              "https://www.linkedin.com/company/grupogenesis"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+55-11-99362-3506",
+              "contactType": "customer support",
+              "areaServed": "BR",
+              "availableLanguage": ["Portuguese", "English"]
+            }
+          },
+          {
+            "@type": "WebSite",
+            "name": "Genesis Agency",
+            "url": "https://genesisagency.online",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://genesisagency.online/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://www.genesisagency.online"
+              }
+            ]
+          }
         ]
       }
       </script>
-      
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Genesis Agency",
-        "url": "https://genesisagency.online",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://genesisagency.online/search?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      }
-      </script>
-      <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Início",
-              "item": "https://www.genesisagency.online"
-            }
-          ]
-        }
-        </script>
 </head>
 
 
